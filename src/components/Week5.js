@@ -2,7 +2,7 @@ import React from 'react';
 
 function Week5() {
     return (
-        <section class='container'>
+        <section id='w5' class='container'>
             <h4 class="text-center">Week 5</h4>
             <h6>Teck Stack:</h6>
                 <ul>
@@ -12,14 +12,15 @@ function Week5() {
                     {/* <!-- <img src="Git" alt="git image"> --> */}
 
                 </ul>
+  
                 <p>
-                hard corona virus first time home
+                They are scary because they open you to a navigation system that however efficient has many areas for error.
                 </p>
                 <p>
-                Tic tac toe react
-                To do list 
-                React Restaurant
+                CLI's allow for the user to access just about any process on your PC. From simple instruction that create 
+                or Delete. To complex manuvers that install an array of feature or manipulate datbases with single lines of code.
                 </p>
+                <p>The first thing that comes to mind is OOP. React facilitates easy OOP utilization that would not be as easy with vanilla JS.</p>
                 <br/>
                 <br/>
                 <hr/>

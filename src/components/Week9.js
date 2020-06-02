@@ -1,31 +1,28 @@
 import React from 'react';
 
-function Week8() {
+function Week9() {
     return (
-        <section class='container'>
-            <h4 class="text-center">Week 8</h4>
+        <section id='w9' class='container'>
+            <h4 class="text-center">Week 9</h4>
             <h6>Teck Stack:</h6>
                 <ul>
-                    <li>HTML</li>
+                    <li>Larvel</li>
                     {/* <!-- <img src="Command Line" alt="command line image"> --> */}
-                    <li>CSS</li>
+                    <li>React</li>
                     {/* <!-- <img src="Git" alt="git image"> --> */}
-                    <li>JavaScript</li>
-                    {/* <!-- <img src="Github" alt="github image"> --> */}
-                    <li>NPM</li>
+                    <li>CLI</li>
 
                 </ul>
                 <p>
-                This week things started to get tricky again. State management is something critical
-                to programming and is an important thing to learn; however, its by no means easy. I took 
-                what i learned from previous times when i was in similar positions with new information and 
-                did my best to learn efficiently. 
+                    My thoughts about laravel and React differ by the day. There are times when i see my self enjoing both, that is when i am able
+                    to continuely implmement the neccessary features that the two programs offer but then there are times when the languages can be 
+                    frustrating. This usually occurs when incooporating a new feature leads to more issues with other components. 
+                    One thing i love about react is the multiple different ways you have to switch state particulary through react router. On the laravel side i particularly 
+                    like the easy use of migrations/seeders/and factories to create your tables.
                 </p>
                 <p>
-                    The first project we were to create was a tic-tac-toe. One of the primary gaols of this project
-                    was to utilize proper state management and play some code golf utilizing only JS. You had to be 
-                    creative to do this which was in someways fun and in others frustrating. I was happy with how 
-                    my project turned out and 
+                    I have currently applied to 5 jobs this week. I have currently been looking solely for web developer positions in lexington. I have not yet heard back
+                    yet but i am hopefuly with time i will be able to find a job i like and where their enviornment will be suitable for me.
                 </p>
                 <br/>
                 <br/>
@@ -35,4 +32,4 @@ function Week8() {
 
 }
 
-export default Week8
+export default Week9

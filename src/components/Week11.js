@@ -1,31 +1,30 @@
 import React from 'react';
 
-function Week8() {
+function Week11() {
     return (
-        <section class='container'>
-            <h4 class="text-center">Week 8</h4>
+        <section id='w11' class='container'>
+            <h4 class="text-center">Week 11</h4>
             <h6>Teck Stack:</h6>
                 <ul>
-                    <li>HTML</li>
+                    <li>Larvel</li>
                     {/* <!-- <img src="Command Line" alt="command line image"> --> */}
-                    <li>CSS</li>
+                    <li>React</li>
                     {/* <!-- <img src="Git" alt="git image"> --> */}
-                    <li>JavaScript</li>
-                    {/* <!-- <img src="Github" alt="github image"> --> */}
-                    <li>NPM</li>
+                    <li>CLI</li>
 
                 </ul>
                 <p>
-                This week things started to get tricky again. State management is something critical
-                to programming and is an important thing to learn; however, its by no means easy. I took 
-                what i learned from previous times when i was in similar positions with new information and 
-                did my best to learn efficiently. 
+                    The final project is something that i am excited about but at the same time nervous. This is something 
+                    all of the bootcampers have been looking forward to since it is the last thing we will be presenting. 
+                    My current struggle is implementing new technologies into my final project since i have been running into blockers
+                    which do not allow me the time to learn new features that i can add to make my project better. Instead i am spending my time
+                    trouble shooting and solving my issues. 
                 </p>
                 <p>
-                    The first project we were to create was a tic-tac-toe. One of the primary gaols of this project
-                    was to utilize proper state management and play some code golf utilizing only JS. You had to be 
-                    creative to do this which was in someways fun and in others frustrating. I was happy with how 
-                    my project turned out and 
+                    Its been a while since i've properly psuedocoded but i do always mentally coordinate the path i 
+                    would like to take with my project. Currently my method for psuedo coding has transitioned from solely 
+                    writing down what i would like to do with creating images, designs, and tables to essentially create 
+                    my project before its initial start. 
                 </p>
                 <br/>
                 <br/>
@@ -35,4 +34,4 @@ function Week8() {
 
 }
 
-export default Week8
+export default Week11

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Week1() {
     return (
-        <section class='container'>
+        <section  id='w1' class='container'>
             <h4 class="text-center">Week 1</h4>
             <h6>Teck Stack:</h6>
                 <ul>

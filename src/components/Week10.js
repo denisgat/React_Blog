@@ -1,31 +1,31 @@
 import React from 'react';
 
-function Week8() {
+function Week10() {
     return (
-        <section class='container'>
-            <h4 class="text-center">Week 8</h4>
+        <section id='w10' class='container'>
+            <h4 class="text-center">Week 10</h4>
             <h6>Teck Stack:</h6>
                 <ul>
-                    <li>HTML</li>
+                    <li>Larvel</li>
                     {/* <!-- <img src="Command Line" alt="command line image"> --> */}
-                    <li>CSS</li>
+                    <li>React</li>
                     {/* <!-- <img src="Git" alt="git image"> --> */}
-                    <li>JavaScript</li>
-                    {/* <!-- <img src="Github" alt="github image"> --> */}
-                    <li>NPM</li>
+                    <li>CLI</li>
 
                 </ul>
                 <p>
-                This week things started to get tricky again. State management is something critical
-                to programming and is an important thing to learn; however, its by no means easy. I took 
-                what i learned from previous times when i was in similar positions with new information and 
-                did my best to learn efficiently. 
+                    I believe the final project is instrucmental in seeing the growth that we've made over our period at the bookcamp.
+                    As nerve racking as it is, it allows us to compound the things that we've learned so that they all come together for a 
+                    unified project. 
+                    I will struggle with overcoming my ability to see past what i already know. Instead of implementing old tech i should look at 
+                    how what i have just learned or a new item that i would like to learn can be able to be implmented.
+
                 </p>
                 <p>
-                    The first project we were to create was a tic-tac-toe. One of the primary gaols of this project
-                    was to utilize proper state management and play some code golf utilizing only JS. You had to be 
-                    creative to do this which was in someways fun and in others frustrating. I was happy with how 
-                    my project turned out and 
+                    Agile methodology is a fantastic way to monitor growth and development. It does take up inital time during the project but 
+                    will save you over the duration of the entire project by making you more efficient and thoughtful of the choices you are making during
+                    developement of the final project. Large scale projects would be difficult if not impossible without agile methodology just simply due 
+                    to the immense ammount of moving parts. I will always vouch for utilizing agile in any medium to large sized project.
                 </p>
                 <br/>
                 <br/>
@@ -35,4 +35,4 @@ function Week8() {
 
 }
 
-export default Week8
+export default Week10

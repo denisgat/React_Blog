@@ -3,38 +3,41 @@ import React from 'react';
 
 function Navbar() {
     return (
-            <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Denis Gatotho</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+                <a className="navbar-brand" href="#">Denis Gatotho</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span></a>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav nav-right mr-auto">
+                        <li className="nav-item active">
+                            <a className="nav-link" href="#">Home
+                            <span className="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#projects">Projects</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#blog" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Blog
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Pre-Work Week 1</a>
-                                <a class="dropdown-item" href="#">Pre-Work Week 2</a>
-                                <a class="dropdown-item" href="#">Pre-Work Week 3</a>
-                                <a class="dropdown-item" href="#">Pre-Work Week 4</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Week 1</a>
-                                <a class="dropdown-item" href="#">Week 2</a>
-                                <a class="dropdown-item" href="#">Week 3</a>
-                                <a class="dropdown-item" href="#">Week 4</a>
-                                <a class="dropdown-item" href="#">Week 5</a>
-                                <a class="dropdown-item" href="#">Week 6</a>
-                                <a class="dropdown-item" href="#">Week 7</a>
-                                <a class="dropdown-item" href="#">Week 8</a>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a className="dropdown-item" href="#pre1">Pre-Work Week 1</a>
+                                <a className="dropdown-item" href="#pre2">Pre-Work Week 2</a>
+                                <a className="dropdown-item" href="#pre3">Pre-Work Week 3</a>
+                                <a className="dropdown-item" href="#pre4">Pre-Work Week 4</a>
+                                <div className="dropdown-divider"></div>
+                                <a className="dropdown-item" href="#w1">Week 1</a>
+                                <a className="dropdown-item" href="#w2">Week 2</a>
+                                <a className="dropdown-item" href="#w3">Week 3</a>
+                                <a className="dropdown-item" href="#w4">Week 4</a>
+                                <a className="dropdown-item" href="#w5">Week 5</a>
+                                <a className="dropdown-item" href="#w6">Week 6</a>
+                                <a className="dropdown-item" href="#w7">Week 7</a>
+                                <a className="dropdown-item" href="#w8">Week 8</a>
+                                <a className="dropdown-item" href="#w9">Week 9</a>
+                                <a className="dropdown-item" href="#w10">Week 10</a>
+                                <a className="dropdown-item" href="#w11">Week 11</a>
                             </div>
                         </li>
                     </ul>

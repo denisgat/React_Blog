@@ -2,7 +2,7 @@ import React from 'react';
 
 function Preweek2() {
     return (
-        <section class="container">
+        <section  id='pre2' class="container">
             <h4 class="text-center">Prework Week 2</h4>
             <h6>Teck Stack:</h6>
             <ul>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Week7() {
     return (
-        <section class='container'>
+        <section id='w7' class='container'>
             <h4 class="text-center">Week 7</h4>
             <h6>Teck Stack:</h6>
                 <ul>
@@ -16,14 +16,16 @@ function Week7() {
 
                 </ul>
                 <p>
-                This week things started to get tricky again. State management is something critical
-                to programming and is an important thing to learn; however, its by no means easy. I took 
-                what i learned from previous times when i was in similar positions with new information and 
-                did my best to learn efficiently. 
+                    PHP has been a learning experience that i will never forget. It opened up a field of understanding about web development that 
+                    i had been yerning for for a while. I would like to learn about ? in php and how different paths associate with differnet coding instructions.
+                    Learning php hasen't been exeptionally difficult however it has been difficult to find the time to learn everything while incooporating into the 
+                    project we have to finish. If i had started with php instead of javascript i would probably be more intuative with how i was utilizing semi-colons as well
+                    as paths. 
                 </p>
                 <p>
-                Mysql heroes
-                </p>
+                    I would like to use a SASS NPM package to utilize eventually, they would really help in styling the characteristics of my website making 
+                    it much more appealing to visit and move around within the program. 
+                </p> 
                 <br/>
                 <br/>
                 <hr/>

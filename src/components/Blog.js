@@ -13,9 +13,9 @@ import Week5 from './Week5';
 import Week6 from './Week6';
 import Week7 from './Week7';
 import Week8 from './Week8';
-// import Week9 from './Week9';
-// import Week10 from './Week10';
-// import Week11 from './Week11';
+import Week9 from './Week9';
+import Week10 from './Week10';
+import Week11 from './Week11';
 // import Week12 from './Week12';
 
 
@@ -31,10 +31,10 @@ function Blog(){
             <h1 className='text-center'>BootCamp Blog</h1>
             <br/>
             {/* <Week12/> */}
-            {/* <Week11/> */}
-            {/* <Week10/> */}
-            {/* <Week9/> */}
-            {/* <Week8/> */}
+            <Week11/>
+            <Week10/>
+            <Week9/>
+            <Week8/>
             <Week7/>
             <Week6/>
             <Week5/>
